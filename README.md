@@ -17,8 +17,7 @@ The analysis covers:
  + Root Cause Analysis: Diagnosing main delay contributors.
  + Solution Proposal: Recommending solutions, such as process optimization and resource allocation.
  
-'''
- **DATA SOURCE**
+''' **DATA SOURCE**
 **Data set provided by the client as a CSV file, which was downloaded and processedfor analysis**.
 
 '''
@@ -46,6 +45,7 @@ Key Questions to Address:
 
 **USED USED SQL CODES**
 SQL.
+
 '''SELECT COUNT(*) AS TotalTruckDrivers
 FROM employees
 WHERE job_title = 'Truck Driver';

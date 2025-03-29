@@ -23,9 +23,9 @@ The analysis covers:
 
 '''
 **TOOLS USED**
-• **Microsoft Excel:** Utilized for preliminary data correction and initial review of the dataset.
-• **SQL Server:** Employed for data cleaning and in-depth analysis to extract meaningful insights.
-•**Power BI:** Used to visualize insights and provide detailed, interactive reports. 
+1.**Microsoft Excel:** Utilized for preliminary data correction and initial review of the dataset.
+2. **SQL Server:** Employed for data cleaning and in-depth analysis to extract meaningful insights.
+3.**Power BI:** Used to visualize insights and provide detailed, interactive reports. 
  
 
 **EXPLORATORY DATA ANALYSIS (EDA)**
@@ -45,8 +45,7 @@ Key Questions to Address:
 **NOTE** These insights from EDA will contribute to optimizing workforce planning, improving fleet management, and enhancing the overall efficiency of oil transfer services.
 
 **USED USED SQL CODES**
-*SQL*
-
+SQL.
 '''SELECT COUNT(*) AS TotalTruckDrivers
 FROM employees
 WHERE job_title = 'Truck Driver';
@@ -55,8 +54,8 @@ SELECT truck_id, SUM(distance_in_km) AS TotalDistanceCovered FROM deliveries GRO
 SELECT truck_id, COUNT(*) AS BreakdownCount FROM maintenance_log WHERE maintenance_type = 'Breakdown' GROUP BY truck_id;
 SELECT truck_id, COUNT(*) AS MaintenanceCount FROM maintenance_log GROUP BY truck_id;
 SELECT COUNT(*) AS EmployeesHiredInLastYear FROM employees WHERE hire_date >= DATE_SUB(CURDATE(), INTERVAL 1 YEAR);
-SELECT YEAR(hire_date) AS Year, MONTH(hire_date) AS Month, COUNT(*) AS EmployeesHired FROM employees GROUP BY YEAR(hire_date), MONTH(hire_date) ORDER BY YEAR(hire_date) DESC, MONTH(hire_date) DESC;'''
-
+SELECT YEAR(hire_date) AS Year, MONTH(hire_date) AS Month, COUNT(*) AS EmployeesHired FROM employees GROUP BY YEAR(hire_date), MONTH(hire_date) ORDER BY YEAR(hire_date) DESC, MONTH(hire_date) DESC;
+'''
  
 ##**RECOMMENDATIONS**
 

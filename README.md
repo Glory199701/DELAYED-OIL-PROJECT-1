@@ -17,13 +17,13 @@ The analysis covers:
  + Root Cause Analysis: Diagnosing main delay contributors.
  + Solution Proposal: Recommending solutions, such as process optimization and resource allocation.
  
-''' **DATA SOURCE**
+"" **DATA SOURCE**
 **Data set provided by the client as a CSV file, which was downloaded and processedfor analysis**.
 
-'''
+""
 **TOOLS USED**
 1.**Microsoft Excel:** Utilized for preliminary data correction and initial review of the dataset.
-2. **SQL Server:** Employed for data cleaning and in-depth analysis to extract meaningful insights.
+2.**SQL Server:** Employed for data cleaning and in-depth analysis to extract meaningful insights.
 3.**Power BI:** Used to visualize insights and provide detailed, interactive reports. 
  
 

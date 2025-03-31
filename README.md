@@ -11,7 +11,7 @@ The analysis covers:
  + Service delay patterns and external influencing factors
  + Operational bottlenecks and improvement opportunities
  
- + **Methodology**
+  **Methodology**
 
  + Data Collection: Gathering logs, staffing data, equipment status, and service records.
  + Analysis: Identifying delay trends and correlating with operational factors.
@@ -58,7 +58,7 @@ SELECT COUNT(*) AS EmployeesHiredInLastYear FROM employees WHERE hire_date >= DA
 SELECT YEAR(hire_date) AS Year, MONTH(hire_date) AS Month, COUNT(*) AS EmployeesHired FROM employees GROUP BY YEAR(hire_date), MONTH(hire_date) ORDER BY YEAR(hire_date) DESC, MONTH(hire_date) DESC;
 '''
  
-#**RECOMMENDATIONS**
+**RECOMMENDATIONS**
 
 Based on the Exploratory Data Analysis (EDA) and insights derived from the SQL queries, here are some recommendationsto improve the efficiency and reliability of the oil transfer service:
 1. Optimize Workforce Allocation

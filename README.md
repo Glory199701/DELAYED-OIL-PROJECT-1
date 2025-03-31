@@ -1,6 +1,6 @@
 # DELAYED-OIL-PROJECT-1
-**project overview**
-**OBJECTIVE**
+#**project overview**#
+#**OBJECTIVE**#
 
 This project investigates the root causes of delays in the oil transfer process and proposes a strategic solution plan. Through data analysis of operational workflows, resource allocation, and process efficiency, this project seeks to identify trends and key areas for improvement.
 
@@ -57,7 +57,7 @@ SELECT COUNT(*) AS EmployeesHiredInLastYear FROM employees WHERE hire_date >= DA
 SELECT YEAR(hire_date) AS Year, MONTH(hire_date) AS Month, COUNT(*) AS EmployeesHired FROM employees GROUP BY YEAR(hire_date), MONTH(hire_date) ORDER BY YEAR(hire_date) DESC, MONTH(hire_date) DESC;
 '''
  
-##**RECOMMENDATIONS**
+#**RECOMMENDATIONS**
 
 Based on the Exploratory Data Analysis (EDA) and insights derived from the SQL queries, here are some recommendationsto improve the efficiency and reliability of the oil transfer service:
 1. Optimize Workforce Allocation

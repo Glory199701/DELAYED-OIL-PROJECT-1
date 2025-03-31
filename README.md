@@ -23,7 +23,7 @@ The analysis covers:
   **DATA SOURCE**
 **Data set provided by the client as a CSV file, which was downloaded and processedfor analysis**.
 
----*
+---
 **TOOLS USED**
 1.**Microsoft Excel:** Utilized for preliminary data correction and initial review of the dataset.
 2.**SQL Server:** Employed for data cleaning and in-depth analysis to extract meaningful insights.

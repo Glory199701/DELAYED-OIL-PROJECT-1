@@ -10,7 +10,8 @@ The analysis covers:
  + Staffing and equipment utilization patterns
  + Service delay patterns and external influencing factors
  + Operational bottlenecks and improvement opportunities
-**Methodology**
+ 
+ + **Methodology**
 
  + Data Collection: Gathering logs, staffing data, equipment status, and service records.
  + Analysis: Identifying delay trends and correlating with operational factors.

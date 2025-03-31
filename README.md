@@ -25,6 +25,7 @@ The analysis covers:
 
 ---
 **TOOLS USED**
+
 1.**Microsoft Excel:** Utilized for preliminary data correction and initial review of the dataset.
 2.**SQL Server:** Employed for data cleaning and in-depth analysis to extract meaningful insights.
 3.**Power BI:** Used to visualize insights and provide detailed, interactive reports. 
